@@ -15,27 +15,29 @@
   font-weight: 700;
   font-size: 52px;
   color: #151414;
+  width: 403px;
   padding-top: 115px;
-  margin-left: 600px;
+  margin-left: 52%;
   margin-right: 160px;
-  text-align: right;
   margin-bottom: 12px;
+  text-align: right;
 }
 .banner-description {
   color: #444343;
-  margin-left: 670px;
+  width: 379px;
+  margin-left: 54%;
   line-height: 21px;
   font-size: 13px;
   margin-right: 160px;
-  text-align: right;
   margin-bottom: 20px;
+  text-align: right;
 }
 .btn-primary {
   color: #ffffff;
   font-weight: 600;
   font-size: 16px;
   border: 0;
-  margin-left: 930px;
+  margin-left: 75%;
   padding: 17px 20px;
   border-radius: 5px;
   background: #f15b22;
