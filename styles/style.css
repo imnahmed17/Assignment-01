@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------- Banner --------------------------------------------------------------*/
+.header {
+  height: 529px;
+  background: #fff8f3;
+  background-image: url("../images/banner/banner2.png");
+  background-position: center;
+  background-size: cover;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 52px;
+  color: #151414;
+  padding-top: 115px;
+  margin-left: 600px;
+  margin-right: 160px;
+  text-align: right;
+  margin-bottom: 12px;
+}
+.banner-description {
+  color: #444343;
+  margin-left: 670px;
+  line-height: 21px;
+  font-size: 13px;
+  margin-right: 160px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  margin-left: 930px;
+  padding: 17px 20px;
+  border-radius: 5px;
+  background: #f15b22;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ Section 01 ------------------------------------------------------------*/
+.failures {
+  margin-top: 67px;
+  margin-left: 158px;
+  /* border: #444343 solid; */
+  max-width: 780px;
+  max-height: 477px;
+  display: flex;
+}
+.section-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 150px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+  max-width: 256px;
+}
+.section-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.section-list {
+  color: #444343;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 60px;
+}
+.check {
+  color: #00ff00;
+  line-height: 26px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ Section 02 ------------------------------------------------------------*/
+.plans {
+  margin: 67px auto 0;
+  /* border: #444343 solid; */
+  max-width: 876px;
+}
+.section-title1 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plans-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+.plans-list {
+  text-align: center;
+}
+.plans-list h4 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.plans-list p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ Section 03 ------------------------------------------------------------*/
+.frontend {
+  margin-top: 67px;
+  margin-left: 291px;
+  /* border: #444343 solid; */
+  max-width: 780px;
+  height: 487px;
+}
+.html-container,
+.css-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.html,
+.css {
+  padding-right: 45px;
+}
+.html h3,
+.css h3 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ Section 04 ------------------------------------------------------------*/
+.gradient {
+  margin: 63px auto 10px;
+  border: #ffffff solid;
+  border-radius: 7px;
+  max-width: 876px;
+  height: 199px;
+  background-image: url("../images/watch.png"), url("../images/gradient3.png");
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+.section-title2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  max-width: 375px;
+}
+.btn-primary1 {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-left: 40px;
+  background: #ffffff;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------- Footer --------------------------------------------------------------*/
+footer {
+  margin-top: 67px;
+  max-height: 382px;
+  background: #151414;
+  padding: 67px 177px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list1 h3 {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.footer-list1 p {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 21px;
+  width: 400px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.image-container {
+  margin-top: 20px;
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+}
+.footer-list2 h4 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.input-email {
+  color: #f3f3f3;
+  font-size: 14px;
+  background: #151414;
+  border: 2px solid #737272;
+  border-radius: 8px;
+  width: 220px;
+  padding: 15px 15px;
+  margin-bottom: 10px;
+}
+.input-btn {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 30px;
+  background: #ffffff;
+}
