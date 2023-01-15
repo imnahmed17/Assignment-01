@@ -5,76 +5,69 @@
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------- Banner --------------------------------------------------------------*/
 .header {
-  height: 529px;
   background: #fff8f3;
   background-image: url("../images/banner/banner2.png");
-  background-position: center;
-  background-size: cover;
+}
+.banner {
+  padding-top: 216px;
+  padding-right: 230px;
+  padding-bottom: 167px;
+  text-align: right;
 }
 .banner-title {
   font-weight: 700;
-  font-size: 52px;
+  font-size: 65px;
   color: #151414;
-  width: 403px;
-  padding-top: 115px;
-  margin-left: 52%;
-  margin-right: 160px;
-  margin-bottom: 12px;
-  text-align: right;
+  padding-left: 600px;
+  margin-bottom: 24px;
 }
 .banner-description {
   color: #444343;
-  width: 379px;
-  margin-left: 54%;
-  line-height: 21px;
-  font-size: 13px;
-  margin-right: 160px;
-  margin-bottom: 20px;
-  text-align: right;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 800px;
+  margin-bottom: 32px;
 }
 .btn-primary {
   color: #ffffff;
-  font-weight: 600;
-  font-size: 16px;
-  border: 0;
-  margin-left: 75%;
-  padding: 17px 20px;
-  border-radius: 5px;
   background: #f15b22;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 25px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------ Section 01 ------------------------------------------------------------*/
+section {
+  margin-top: 130px;
+}
 .failures {
-  margin-top: 67px;
-  margin-left: 158px;
-  /* border: #444343 solid; */
-  max-width: 780px;
-  max-height: 477px;
+  margin-left: 206px;
+  margin-right: 322px;
   display: flex;
+  gap: 80px;
 }
 .section-title {
   color: #151414;
   font-weight: 700;
-  font-size: 32px;
-  margin-top: 150px;
-  margin-left: 60px;
-  margin-bottom: 15px;
-  max-width: 256px;
+  font-size: 40px;
+  margin-top: 170px;
+  padding-right: 10px;
+  margin-bottom: 24px;
 }
 .section-description {
   color: #444343;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 26px;
   text-align: left;
-  margin-left: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .section-list {
   color: #444343;
-  font-weight: 400;
-  font-size: 13px;
-  margin-left: 60px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .check {
   color: #00ff00;
@@ -83,16 +76,15 @@
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------ Section 02 ------------------------------------------------------------*/
 .plans {
-  margin: 67px auto 0;
-  /* border: #444343 solid; */
-  max-width: 876px;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 .section-title1 {
   color: #151414;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .plans-list-container {
   display: flex;
@@ -104,32 +96,26 @@
 .plans-list h4 {
   color: #151414;
   font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 8px;
+  font-size: 30px;
+  margin-bottom: 16px;
 }
 .plans-list p {
   color: #737272;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------ Section 03 ------------------------------------------------------------*/
 .frontend {
-  margin-top: 67px;
-  margin-left: 291px;
-  /* border: #444343 solid; */
-  max-width: 780px;
-  height: 487px;
+  margin-left: 322px;
+  margin-right: 206px;
 }
 .html-container,
 .css-container {
   display: flex;
+  gap: 80px;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-.html,
-.css {
-  padding-right: 45px;
 }
 .html h3,
 .css h3 {
@@ -137,91 +123,95 @@
   font-weight: 700;
   font-size: 24px;
   margin-left: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.html .section-description,
+.css .section-description {
+  margin-left: 60px;
+  text-align: justify;
+}
+.html-container img,
+.css-container img {
+  margin-top: 10px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------ Section 04 ------------------------------------------------------------*/
 .gradient {
-  margin: 63px auto 10px;
   border: #ffffff solid;
-  border-radius: 7px;
-  max-width: 876px;
-  height: 199px;
-  background-image: url("../images/watch.png"), url("../images/gradient3.png");
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 930px;
+  padding: 59px 64px;
+  background-image: url("../images/watch.png"), linear-gradient(to right, rgb(241, 93, 34), rgba(241, 93, 34, 0));
   background-size: cover;
   background-blend-mode: soft-light;
 }
 .section-title2 {
   color: #ffffff;
   font-weight: 700;
-  font-size: 32px;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  max-width: 375px;
+  font-size: 40px;
+  padding-right: 400px;
+  margin-bottom: 24px;
 }
 .btn-primary1 {
   color: #f15b22;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   border: 0;
   border-radius: 5px;
-  padding: 15px 20px;
-  margin-left: 40px;
+  padding: 21px 36px;
   background: #ffffff;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------- Footer --------------------------------------------------------------*/
 footer {
-  margin-top: 67px;
-  max-height: 382px;
+  margin-top: 130px;
   background: #151414;
-  padding: 67px 177px;
+  padding: 130px 230px;
   display: flex;
   justify-content: space-between;
 }
 .footer-list1 h3 {
   color: #f8f8f8;
   font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 10px;
+  font-size: 45px;
+  margin-bottom: 16px;
 }
 .footer-list1 p {
   color: #ffffff;
-  font-size: 13px;
-  line-height: 21px;
-  width: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  width: 485px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 .image-container {
-  margin-top: 20px;
   display: flex;
-  width: 140px;
-  justify-content: space-between;
+  gap: 17px;
 }
 .footer-list2 h4 {
   color: #ffffff;
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 25px;
+  margin-bottom: 31px;
 }
 .input-email {
   color: #f3f3f3;
-  font-size: 14px;
+  font-size: 18px;
   background: #151414;
-  border: 2px solid #737272;
+  border: 1px solid #ffffff;
   border-radius: 8px;
-  width: 220px;
-  padding: 15px 15px;
-  margin-bottom: 10px;
+  width: 280px;
+  padding: 21px 21px;
+  margin-bottom: 15px;
 }
 .input-btn {
   color: #f15b22;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   border: 0;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 20px 36px;
   background: #ffffff;
 }
