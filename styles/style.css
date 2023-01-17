@@ -143,9 +143,8 @@ section {
   margin-right: auto;
   max-width: 930px;
   padding: 59px 64px;
-  background-image: url("../images/watch.png"), linear-gradient(to right, rgb(241, 93, 34), rgba(241, 93, 34, 0));
+  background-image: linear-gradient(to right, rgb(241, 93, 34), rgba(241, 93, 34, 0)), url("../images/watch.png");
   background-size: cover;
-  background-blend-mode: soft-light;
 }
 .section-title2 {
   color: #ffffff;
